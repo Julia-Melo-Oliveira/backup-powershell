@@ -23,3 +23,22 @@ Cada execução gera uma nova pasta nomeada com data/hora e registra o resultado
 Além da versão principal, existe também o script `backup_auto.ps1`.  
 Essa versão verifica se as pastas de origem e destino existem e, caso não, cria automaticamente antes de executar o backup.
 
+## Exemplo de Execução
+
+![Exemplo do script principal](docs_img/Backup_Comum.png)
+
+## Versão Automática
+
+![Execução da versão com criação de pastas](docs_img/Backup_Auto.png)
+
+## Estrutura do Repositório
+
+backup-powershell/
+ backup.ps1          
+ backup_auto.ps1     
+ README.md           
+ docs_img/           
+
+## FIM!
+
+Projeto foi feito no começo dos meus estudos e agora estou o colocando no github para servir de documentação.
